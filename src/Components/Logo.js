@@ -1,8 +1,8 @@
-import logo from "../assets/youtube_1384060.png";
+import logo from "../assets/YouTube-Logo.png";
 const Logo = () => {
   return (
     <div className="logo">
-      <img src={logo} alt="Logo" width={25} />
+      <img src={logo} alt="Logo" width={100} />
     </div>
   );
 }

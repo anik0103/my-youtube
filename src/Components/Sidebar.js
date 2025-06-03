@@ -1,12 +1,15 @@
+
+
 const Sidebar = () => {
   return (
-    <div className="w-1/4 bg-slate-300 h-screen leading-10">
-      <ul className=" ">
-        <li className="">Home</li>
-        <li>History</li>
-        <li>playlist</li>
-        <li>subcription</li>
-        <li>Watch</li>
+    <div className=" w-1/5 bg-white h-screen leading-10 flex flex-row justify-center">
+      <ul>
+      <li>Home</li>
+      <li>Shorts</li>
+      <li>Subscriptions</li>
+      <li>Library</li>
+      <li>History</li>
+      <li>Watch Later</li>
       </ul>
     </div>
   );
